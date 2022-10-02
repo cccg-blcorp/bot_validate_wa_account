@@ -27,6 +27,9 @@ share/python-wheels/
 .installed.cfg
 *.egg
 *.cfg
+*.csv
+*.dat
+*.log
 MANIFEST
 
 # PyInstaller
