@@ -30,6 +30,7 @@ share/python-wheels/
 *.csv
 *.dat
 *.log
+*.png
 MANIFEST
 
 # PyInstaller
