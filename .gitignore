@@ -31,6 +31,8 @@ share/python-wheels/
 *.dat
 *.log
 *.png
+.wwebjs_auth
+node_modules
 MANIFEST
 
 # PyInstaller

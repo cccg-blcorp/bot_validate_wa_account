@@ -36,7 +36,10 @@ fastify.get("/whatsapp/:phone", async (request, reply) => {
   console.log("query: ", request.query);
   console.log("value: ", request.query.phone);
   const result = await isWaContact(request.query);
-  reply.send({ message: result ? "is wa contact" : "is not wa contact" });
+  reply.send({
+    message: result ? "is wa contact" : "is not wa contact",
+    result: result,
+  });
 });
 
 // Run the server!
